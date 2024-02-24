@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="apiautomation.EmployeesAPI">
+        <methods>
+          <include name="Test_2_createEmployee"/>
+          <include name="Test_3_getOneEmployee"/>
+          <include name="Test_5_deleteDeletedEmployee"/>
+          <include name="Test_4_deleteEmployee"/>
+        </methods>
+      </class> <!-- apiautomation.EmployeesAPI -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

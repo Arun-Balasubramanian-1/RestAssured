@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 4.012 s <<< FAILURE! - in TestSuite
+apiautomation.EmployeesAPI.Test_2_createEmployee  Time elapsed: 0.341 s  <<< FAILURE!
+java.lang.AssertionError: expected:<429> but was:<200>
+	at apiautomation.EmployeesAPI.Test_2_createEmployee(EmployeesAPI.java:43)
+
+apiautomation.EmployeesAPI.Test_3_getOneEmployee  Time elapsed: 0.353 s  <<< FAILURE!
+java.lang.AssertionError: expected:<429> but was:<200>
+	at apiautomation.EmployeesAPI.Test_3_getOneEmployee(EmployeesAPI.java:61)
+
+apiautomation.EmployeesAPI.Test_4_deleteEmployee  Time elapsed: 0.315 s  <<< FAILURE!
+java.lang.AssertionError: expected:<429> but was:<200>
+	at apiautomation.EmployeesAPI.Test_4_deleteEmployee(EmployeesAPI.java:78)
+
+apiautomation.EmployeesAPI.Test_5_deleteDeletedEmployee  Time elapsed: 0.386 s  <<< FAILURE!
+java.lang.AssertionError: expected:<429> but was:<200>
+	at apiautomation.EmployeesAPI.Test_5_deleteDeletedEmployee(EmployeesAPI.java:94)
+
